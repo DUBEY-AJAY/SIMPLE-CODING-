@@ -1,0 +1,5 @@
+# Provide 2 number for keyboard and check the following
+a5 = int(input('Enter First Number:'))
+b5 = int(input('Enter Second Number:'))
+result = "Equal" if a5==b5 else "Smaller" if a5<b5 else "Bigger"
+print(result)
